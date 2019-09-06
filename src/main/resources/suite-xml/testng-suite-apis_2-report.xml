@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- 注意：-->
+<!-- 通过 XML 文件的方式，多线程执行测试用例时，parallel 的取值可能会导致测试失败。-->
+<!-- parallel="tests" parallel="classes" parallel="method" -->
+
+<!-- 另外：-->
+<!-- 通过 XML 文件的方式执行测试用例，在多线程执行测试用例时，测试代码什么时候写在一个 @Test 中，-->
+<!-- 什么时候写在多个 @Test 中，就需要仔细思考，或在执行测试用例失败时，进行调整。-->
+
+<!-- 如：RemoveUserByIdTest_success.java 这条测试用，如果把测试场景分开写在多个 @Test 中，-->
+<!-- 即便是指定了执行顺序 @Test(priority = n)，也会在删除方法时出现“删除失败”的情况，-->
+<!-- 所以就把整个测试场景写在一个 @Test 当中，这样才能够保证每次都删除成功。-->
+<suite name="User Info Manager System">
+
+    <test name="test case 1">
+        <classes>
+            <class name="com.apis_2.add.AddUserTest_success"></class>
+            <class name="com.apis_2.edit.EditUserTest_success"></class>
+            <class name="com.apis_2.find.FindUserByIdTest_success"></class>
+            <class name="com.apis_2.find.FindUserTest_success"></class>
+            <class name="com.apis_2.remove.RemoveUserByIdTest_error"></class>
+            <class name="com.apis_2.remove.RemoveUserByIdTest_success"></class>
+            <class name="com.apis_2.remove.RemoveUserTest_success"></class>
+        </classes>
+    </test>
+
+<!--    <test name="test case 2">-->
+<!--        <classes>-->
+<!--            <class name="com.apis_2.add.AddUserTest_success"></class>-->
+<!--            <class name="com.apis_2.edit.EditUserTest_success"></class>-->
+<!--            <class name="com.apis_2.find.FindUserByIdTest_success"></class>-->
+<!--            <class name="com.apis_2.find.FindUserTest_success"></class>-->
+<!--            <class name="com.apis_2.remove.RemoveUserByIdTest_error"></class>-->
+<!--            <class name="com.apis_2.remove.RemoveUserByIdTest_success"></class>-->
+<!--            <class name="com.apis_2.remove.RemoveUserTest_success"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <!-- 设置监听器 listener class-name 为：-->
+    <!-- ExtentTestNGIReporterListener 类所在的路径 -->
+    <listeners>
+        <listener class-name="com.config.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+
+</suite>

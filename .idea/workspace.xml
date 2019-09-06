@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="854e45df-ef34-4b33-a82d-1cc0224cf4df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\maven_repository" />
+        <option name="userSettingsFile" value="D:\Tools\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Otj6SqqPVPnvq57R7jYgixJ37f" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api-auto-test3" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/DifengTest/my_git/api-auto-test/src/main/resources/suite-xml/testng-suite-apis_2-report.xml">
+    <configuration name="D:/DifengTest/my_git/api-auto-test/src/main/resources/suite-xml/testng-suite-apis-report.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api-auto-test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/suite-xml/testng-suite-apis-report.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/DifengTest/my_git/api-auto-test/src/main/resources/suite-xml/testng-suite-apis_2-report_并发练习.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api-auto-test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/suite-xml/testng-suite-apis_2-report_并发练习.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/DifengTest/my_git/api-auto-test/src/main/resources/suite-xml/testng-suite-apis_2-report.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api-auto-test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/suite-xml/testng-suite-apis_2-report.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryTest_apis" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api-auto-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.suite" />
+      <option name="MAIN_CLASS_NAME" value="com.suite.FactoryTest_apis" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryTest_apis_2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api-auto-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.suite" />
+      <option name="MAIN_CLASS_NAME" value="com.suite.FactoryTest_apis_2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/DifengTest/my_git/api-auto-test/src/main/resources/suite-xml/testng-suite-apis_2-report.xml" />
+        <item itemvalue="TestNG.D:/DifengTest/my_git/api-auto-test/src/main/resources/suite-xml/testng-suite-apis_2-report_并发练习.xml" />
+        <item itemvalue="TestNG.D:/DifengTest/my_git/api-auto-test/src/main/resources/suite-xml/testng-suite-apis-report.xml" />
+        <item itemvalue="TestNG.FactoryTest_apis_2" />
+        <item itemvalue="TestNG.FactoryTest_apis" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="854e45df-ef34-4b33-a82d-1cc0224cf4df" name="Default Changelist" comment="" />
+      <created>1564803612042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564803612042</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
